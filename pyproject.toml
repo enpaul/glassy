@@ -6,7 +6,7 @@ authors = ["Ethan Paul <24588726+enpaul@users.noreply.github.com>"]
 description = "ASCII network status map generator"
 repository = "https://github.com/enpaul/glassy/"
 packages = [
-  {include = "glassy.py"},
+  {include = "glassy/py.typed"},
   {include = "tests/*.py", format = "sdist"}
 ]
 keywords = ["terminal", "ascii", "network", "monitoring", "dashboard"]
